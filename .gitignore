@@ -19,3 +19,6 @@
 third_party/google/
 
 *.sh
+
+# exclude fontend Reactjs
+#app/

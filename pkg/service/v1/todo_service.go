@@ -50,7 +50,7 @@ func (s *toDoServiceServer) connect(ctx context.Context) (*sql.Conn, error)  {
 
 // create a new to do task
 func (s *toDoServiceServer) Create(ctx context.Context,  req *v1.CreateRequest) (*v1.CreateResponse, error) {
-	// check if the API version requested by client is supported by server
+	// check if the API version requested by app is supported by server
 	if err := s.checkAPI(req.Api); err != nil {
 		return nil, err
 	}
@@ -88,7 +88,7 @@ func (s *toDoServiceServer) Create(ctx context.Context,  req *v1.CreateRequest) 
 
 // read to do task
 func (s *toDoServiceServer) Read(ctx context.Context, req *v1.ReadRequest) (*v1.ReadResponse, error) {
-	// check if API version requested by the client is supported by server
+	// check if API version requested by the app is supported by server
 	if err := s.checkAPI(req.Api); err != nil {
 		return nil, err
 	}
@@ -133,7 +133,7 @@ func (s *toDoServiceServer) Read(ctx context.Context, req *v1.ReadRequest) (*v1.
 }
 
 func (s *toDoServiceServer) Update(ctx context.Context, req *v1.UpdateRequest) (*v1.UpdateResponse, error) {
-	// check if API version requested by the client is supported by server
+	// check if API version requested by the app is supported by server
 	if err := s.checkAPI(req.Api); err != nil {
 		return nil, err
 	}
@@ -174,7 +174,7 @@ func (s *toDoServiceServer) Update(ctx context.Context, req *v1.UpdateRequest) (
 
 // delete to_do task
 func (s *toDoServiceServer) Delete(ctx context.Context, req *v1.DeleteRequest) (*v1.DeleteResponse, error) {
-	// check if API version requested by the client is supported by server
+	// check if API version requested by the app is supported by server
 	if err := s.checkAPI(req.Api); err != nil {
 		return nil, err
 	}
@@ -209,7 +209,7 @@ func (s *toDoServiceServer) Delete(ctx context.Context, req *v1.DeleteRequest) (
 
 // read all to_do tasks
 func (s *toDoServiceServer) ReadAll(ctx context.Context, req *v1.ReadAllRequest) (*v1.ReadAllResponse, error) {
-	// check if API version requested by the client is supported by server
+	// check if API version requested by the app is supported by server
 	if err := s.checkAPI(req.Api); err != nil {
 		return nil, err
 	}

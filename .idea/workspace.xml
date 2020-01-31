@@ -2,14 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="588f251b-4a85-4b46-82ae-3a39d506a4eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/cmd/server.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/protocol/grpc/server.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/service/v1/todo_service_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/grpc-golang-react-v1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/grpc-golang-react-v1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/v1/todo_service_grpc_web_pb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/v1/todo_service_pb.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/v1/todo_service_pb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/v1/todo_service_service_client_pb.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/v2/todo_service_pb.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/v2/todo_service_pb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/v2/todo_service_pb_service.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/v2/todo_service_pb_service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/client.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/api/v1/todo_service.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/api/v1/todo_service.pb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/service/v1/todo_service.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/service/v1/todo_service.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third_party/google/protobuf/descriptor.proto" beforeDir="false" afterPath="$PROJECT_DIR$/third_party/google/protobuf/descriptor.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third_party/google/protobuf/field_mask.proto" beforeDir="false" afterPath="$PROJECT_DIR$/third_party/google/protobuf/field_mask.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third_party/protoc-generate.sh" beforeDir="false" afterPath="$PROJECT_DIR$/third_party/protoc-generate.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,28 +70,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/proto/v1/todo_service.proto">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/third_party/protoc-generate.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysql/up.sql">
+        <entry file="file://$PROJECT_DIR$/cmd/server/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+            <state relative-caret-position="60">
+              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+              <folding>
+                <element signature="e#16#90#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pkg/cmd/server.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="780">
+              <caret line="62" column="17" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
+              <folding>
+                <element signature="e#13#241#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,19 +105,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pkg/service/v1/todo_service.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pkg/service/v1/todo_service_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="116" column="61" selection-start-line="116" selection-start-column="61" selection-end-line="116" selection-end-column="61" />
+            <state relative-caret-position="795">
+              <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
               <folding>
-                <element signature="e#12#247#0" expanded="true" />
+                <element signature="e#12#216#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,41 +117,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pkg/protocol/grpc/server.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="58" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="58" />
-              <folding>
-                <element signature="e#14#93#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="12" selection-start-line="12" selection-end-line="43" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pkg/cmd/server.go">
+        <entry file="file://$PROJECT_DIR$/app/src/client.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="45" column="27" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
+            <state>
               <folding>
-                <element signature="e#13#42#0" expanded="true" />
+                <element signature="e#0#46#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pkg/api/v1/todo_service.pb.go">
+        <entry file="file://$PROJECT_DIR$/app/api/v2/todo_service_pb.d.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="44" column="42" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+            <state relative-caret-position="60">
+              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -157,8 +152,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Go File" />
+        <option value="TypeScript File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ReadReq</find>
+    </findStrings>
   </component>
   <component name="GOROOT" path="/usr/local/go" />
   <component name="Git.Settings">
@@ -176,8 +177,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/api/proto/v1/todo_service.proto" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/third_party/protoc-generate.sh" />
         <option value="$PROJECT_DIR$/mysql/up.sql" />
         <option value="$PROJECT_DIR$/pkg/service/v1/todo_servie_test.go" />
         <option value="$PROJECT_DIR$/go.mod" />
@@ -185,14 +184,29 @@
         <option value="$PROJECT_DIR$/pkg/service/v1/todo_service_test.go" />
         <option value="$PROJECT_DIR$/pkg/protocol/grpc/server.go" />
         <option value="$PROJECT_DIR$/pkg/cmd/server.go" />
+        <option value="$PROJECT_DIR$/cmd/server/main.go" />
+        <option value="$PROJECT_DIR$/app/proto/proto-gen.sh" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/app/src/index.tsx" />
+        <option value="$PROJECT_DIR$/app/src/App.tsx" />
+        <option value="$PROJECT_DIR$/app/src/index.ts" />
+        <option value="$PROJECT_DIR$/app/api/v1/todo_service_pb.d.ts" />
+        <option value="$PROJECT_DIR$/app/api/v1/todo_service_service_client_pb.ts" />
+        <option value="$PROJECT_DIR$/third_party/protoc-generate.sh" />
+        <option value="$PROJECT_DIR$/app/api/Todo_serviceServiceClientPb.ts" />
+        <option value="$PROJECT_DIR$/app/api/proto-gen.sh" />
+        <option value="$PROJECT_DIR$/app/api/v2.sh" />
+        <option value="$PROJECT_DIR$/third_party/client-proto-gen.sh" />
+        <option value="$PROJECT_DIR$/third_party/v2.sh" />
+        <option value="$PROJECT_DIR$/app/src/client.tsx" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="1405" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="702" />
     <option name="y" value="24" />
-    <option name="width" value="941" />
-    <option name="height" value="1056" />
+    <option name="width" value="664" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -211,30 +225,67 @@
             <path>
               <item name="grpc-golang-react-v1" type="b2602c69:ProjectViewProjectNode" />
               <item name="grpc-golang-react-v1" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="grpc-golang-react-v1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="grpc-golang-react-v1" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="grpc-golang-react-v1" type="b2602c69:ProjectViewProjectNode" />
               <item name="grpc-golang-react-v1" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="proto" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="grpc-golang-react-v1" type="b2602c69:ProjectViewProjectNode" />
               <item name="grpc-golang-react-v1" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="proto" type="462c0819:PsiDirectoryNode" />
-              <item name="v1" type="462c0819:PsiDirectoryNode" />
+              <item name="cmd" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="grpc-golang-react-v1" type="b2602c69:ProjectViewProjectNode" />
               <item name="grpc-golang-react-v1" type="462c0819:PsiDirectoryNode" />
-              <item name="mysql" type="462c0819:PsiDirectoryNode" />
+              <item name="cmd" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="grpc-golang-react-v1" type="b2602c69:ProjectViewProjectNode" />
               <item name="grpc-golang-react-v1" type="462c0819:PsiDirectoryNode" />
               <item name="pkg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="grpc-golang-react-v1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="grpc-golang-react-v1" type="462c0819:PsiDirectoryNode" />
+              <item name="pkg" type="462c0819:PsiDirectoryNode" />
+              <item name="cmd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="grpc-golang-react-v1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="grpc-golang-react-v1" type="462c0819:PsiDirectoryNode" />
+              <item name="pkg" type="462c0819:PsiDirectoryNode" />
+              <item name="protocol" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="grpc-golang-react-v1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="grpc-golang-react-v1" type="462c0819:PsiDirectoryNode" />
+              <item name="pkg" type="462c0819:PsiDirectoryNode" />
+              <item name="protocol" type="462c0819:PsiDirectoryNode" />
+              <item name="grpc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="grpc-golang-react-v1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="grpc-golang-react-v1" type="462c0819:PsiDirectoryNode" />
+              <item name="pkg" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="grpc-golang-react-v1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="grpc-golang-react-v1" type="462c0819:PsiDirectoryNode" />
+              <item name="pkg" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="v1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -247,19 +298,27 @@
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="add_unversioned_files" value="$PROJECT_DIR$/third_party/protoc-generate.sh" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/app/proto/proto-gen.sh&#10;/home/jacob/go/src/github.com/aplJake/grpc-golang-react-v1/app/api/proto-gen.sh&#10;/home/jacob/go/src/github.com/aplJake/grpc-golang-react-v1/client/src/App.tsx&#10;/home/jacob/go/src/github.com/aplJake/grpc-golang-react-v1/app/api/v2.sh&#10;/home/jacob/go/src/github.com/aplJake/grpc-golang-react-v1/third_party/protoc-generate.sh&#10;/home/jacob/go/src/github.com/aplJake/grpc-golang-react-v1/third_party/client-proto-gen.sh" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Module.GOPATH.is.expanded" value="true" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/third_party" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/api" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Go" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/app/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/api" />
       <recent name="$PROJECT_DIR$/third_party" />
+      <recent name="$PROJECT_DIR$/app/api/v1" />
+      <recent name="$PROJECT_DIR$/app" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/api" />
+      <recent name="$PROJECT_DIR$/app/api/v1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -274,7 +333,51 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Bash.v2.sh (1)">
+    <configuration name="client-proto-gen.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
+      <module name="grpc-golang-react-v1" />
+      <option name="INTERPRETER_OPTIONS" value="bash" />
+      <option name="INTERPRETER_PATH" value="/usr/bin/env" />
+      <option name="PROJECT_INTERPRETER" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/third_party" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/third_party/client-proto-gen.sh" />
+      <option name="PARAMETERS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="proto-gen.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
+      <module name="grpc-golang-react-v1" />
+      <option name="INTERPRETER_OPTIONS" value="bash" />
+      <option name="INTERPRETER_PATH" value="/usr/bin/env" />
+      <option name="PROJECT_INTERPRETER" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/api" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/api/proto-gen.sh" />
+      <option name="PARAMETERS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="v2.sh (1)" type="BashConfigurationType" factoryName="Bash" temporary="true">
+      <module name="grpc-golang-react-v1" />
+      <option name="INTERPRETER_OPTIONS" value="bash" />
+      <option name="INTERPRETER_PATH" value="/usr/bin/env" />
+      <option name="PROJECT_INTERPRETER" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/third_party" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/third_party/v2.sh" />
+      <option name="PARAMETERS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="v2.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
+      <module name="grpc-golang-react-v1" />
+      <option name="INTERPRETER_OPTIONS" value="bash" />
+      <option name="INTERPRETER_PATH" value="/usr/bin/env" />
+      <option name="PROJECT_INTERPRETER" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/api" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/api/v2.sh" />
+      <option name="PARAMETERS" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="todo_service_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="grpc-golang-react-v1" />
       <working_directory value="$PROJECT_DIR$/pkg/service/v1" />
@@ -287,29 +390,42 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Bash.v2.sh (1)" />
+        <item itemvalue="Bash.client-proto-gen.sh" />
+        <item itemvalue="Bash.v2.sh" />
+        <item itemvalue="Bash.proto-gen.sh" />
         <item itemvalue="Go Test.todo_service_test.go" />
       </list>
     </recent_temporary>
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="1405" y="24" width="941" height="1056" extended-state="4" />
-    <editor active="true" />
+    <frame x="39" y="-4" width="1327" height="772" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.30614525" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4145199" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4980484" visible="true" weight="0.031479537" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32761312" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4980484" weight="0.1622465" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32917318" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32948583" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5019516" side_tool="true" weight="0.34230193" />
+      <window_info anchor="bottom" id="TypeScript" order="12" weight="0.1450858" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -380,20 +496,6 @@
     <entry file="file://$PROJECT_DIR$/go.sum">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/proto/v1/todo_service.proto">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/third_party/protoc-generate.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysql/up.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -401,10 +503,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file:///usr/local/go/src/builtin/builtin.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        <state relative-caret-position="312">
+          <caret line="189" lean-forward="true" selection-start-line="188" selection-start-column="8" selection-end-line="189" />
         </state>
       </provider>
     </entry>
@@ -418,43 +520,262 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/api/model.js" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/react-app-env.d.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/logo.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/index.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/App.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/api/v1/todo_service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pkg/api/todo_service_pb.js" />
+    <entry file="file://$PROJECT_DIR$/app/src/App.test.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pkg/api/todo.js" />
+    <entry file="file://$PROJECT_DIR$/pkg/api/readresponse.js" />
+    <entry file="file://$PROJECT_DIR$/pkg/api/readrequest.js" />
+    <entry file="file://$PROJECT_DIR$/pkg/api/readallresponse.js" />
+    <entry file="file://$PROJECT_DIR$/pkg/api/readallrequest.js" />
+    <entry file="file://$PROJECT_DIR$/app/api/v1/todo_service_grpc_web_pb.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="158" column="2" selection-start-line="158" selection-start-column="2" selection-end-line="158" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/api/v1/todo_service.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+          <folding>
+            <element signature="n#v1#0" />
+            <element signature="n#google#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/api/v1/todo_service_pb.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/api/Todo_serviceServiceClientPb.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1403">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding>
+            <element signature="e#127#163#0" expanded="true" />
+            <element signature="n#!!block;n#constructor#0;n#ToDoServiceClient#0" />
+            <element signature="e#1168#1215#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/api/todo_service_pb.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pkg/api/v1/todo_service.pb.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="44" column="42" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
+        <state relative-caret-position="98">
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pkg/service/v1/todo_service.go">
+    <entry file="file://$PROJECT_DIR$/app/api/v1/todo_service_service_client_pb.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="102" column="33" selection-start-line="102" selection-start-column="33" selection-end-line="102" selection-end-column="33" />
+          <folding>
+            <element signature="e#127#163#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/api/proto-gen.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="48" lean-forward="true" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/api/v2/todo_service_pb_service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/api/v2/todo_service_pb.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/third_party/v2/todo_service_pb_service.d.ts" />
+    <entry file="file://$PROJECT_DIR$/pkg/api/todo_service_pb_service.d.ts" />
+    <entry file="file://$PROJECT_DIR$/pkg/api/todo_service_grpc_web_pb.d.ts" />
+    <entry file="file://$PROJECT_DIR$/pkg/api/todo_service_pb.d.ts" />
+    <entry file="file://$PROJECT_DIR$/app/node_modules/@improbable-eng/grpc-web/dist/typings/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/proto/v1/todo_service.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/third_party/v2.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/api/v2.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="10" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/third_party/client-proto-gen.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/go/src/builtin/builtin.go">
+    <entry file="file://$PROJECT_DIR$/app/api/todo_service.proto">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="189" lean-forward="true" selection-start-line="188" selection-start-column="8" selection-end-line="189" />
-        </state>
+        <state relative-caret-position="-172" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pkg/protocol/grpc/server.go">
+    <entry file="file://$PROJECT_DIR$/app/api/v2/todo_service_pb_service.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="58" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="58" />
+        <state relative-caret-position="75">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
           <folding>
-            <element signature="e#14#93#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/third_party/protoc-generate.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/server/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding>
+            <element signature="e#16#90#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pkg/cmd/server.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="27" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
+        <state relative-caret-position="780">
+          <caret line="62" column="17" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
           <folding>
-            <element signature="e#13#42#0" expanded="true" />
+            <element signature="e#13#241#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pkg/service/v1/todo_service.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+          <folding>
+            <element signature="e#12#216#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pkg/protocol/grpc/server.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="12" selection-start-line="12" selection-end-line="43" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/api/v2/todo_service_pb.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/client.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
           </folding>
         </state>
       </provider>
